@@ -1,11 +1,11 @@
-/* styles.css */
+
 
 body {
     background-color: Cornsilk;
     font-family: 'Verdana', sans-serif;
     color: #333;
     margin: 0;
-    padding: 20px; /* Added padding for overall page content */
+    padding: 20px; 
     line-height: 1.6;
 }
 
@@ -19,8 +19,8 @@ body {
     color: #333;
     text-decoration: none;
     margin: 0 15px;
-    padding: 5px 10px; /* Added padding for better touch target size */
-    display: inline-block; /* To enable padding effect */
+    padding: 5px 10px; 
+    display: inline-block; 
 }
 
 .content {
@@ -29,10 +29,10 @@ body {
 }
 
 img {
-    max-width: 100%; /* Ensures images are responsive */
+    max-width: 100%; 
     height: auto;
     display: block;
-    margin: 20px auto; /* Centers the image and adds vertical space */
+    margin: 20px auto; 
 }
 
 footer {
@@ -40,27 +40,29 @@ footer {
     color: #333;
     text-align: center;
     padding: 10px;
-    position: relative; /* Changed from fixed to relative for natural flow */
+    position: relative; 
     width: 100%;
     bottom: 0;
-    margin-top: 20px; /* Adds space before the footer */
+    margin-top: 20px; 
 }
-
-/* Adding a serif font to at least one element */
+.youtube-video {
+    width: 560px;
+    height: 315px;
+}
 h1 {
-    font-family: 'Georgia', serif; /* Example of changing font to a serif with "serif" as a fallback */
+    font-family: 'Georgia', serif; 
 }
 
-/* Ensuring navigation section is distinct */
+
 nav.menu {
-    background-color: #e2e2e2; /* Slightly lighter for distinction */
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Adds subtle shadow for depth */
+    background-color: #e2e2e2; 
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1); 
 }
 
-/* Additional styles for specificity and aesthetics */
+
 .menu a:hover {
-    background-color: #d3d3d3; /* Hover effect for navigation links */
-    border-radius: 5px; /* Rounded corners for links on hover */
+    background-color: #d3d3d3; 
+    border-radius: 5px; 
 }
 
 
@@ -106,7 +108,7 @@ p {
     line-height: 1.6;
 }
 
-/* Unique section styles */
+
 .cantonese { background-color: #FFEFD5; }
 .beijing { background-color: #FFFACD; }
 .shandong { background-color: #B0E0E6; }
