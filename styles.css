@@ -48,6 +48,7 @@ footer {
 .youtube-video {
     width: 560px;
     height: 315px;
+    border: 0;
 }
 h1 {
     font-family: 'Georgia', serif; 
